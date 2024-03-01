@@ -1,0 +1,3 @@
+rsync -q --timeout=5 -avrP --exclude "*.npy" --exclude "core.*" --exclude ".git" --exclude "*.pyc" --exclude "alpa_serve" /home/server/DistributedOffload root@192.168.249.125:/home/server/
+rsync -q --timeout=5 -avrP --exclude "*.npy" --exclude "core.*" --exclude ".git" --exclude "*.pyc" --exclude "alpa_serve" /home/server/DistributedOffload root@192.168.249.123:/home/server/
+# rsync -q --timeout=5 -avrP --exclude ".git" --exclude "*.pyc" --exclude "alpa_serve" /home/server/DistributedOffload root@192.168.249.122:/home/server/
